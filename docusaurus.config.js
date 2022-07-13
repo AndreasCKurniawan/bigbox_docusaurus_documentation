@@ -13,12 +13,12 @@
 const config = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://192.168.1.2:3000',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  themes: ['@docusaurus/theme-search-algolia'],
+  // themes: ['@docusaurus/theme-search-algolia'],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -63,9 +63,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'data-lake-platform',
+            docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           // {to: 'blog', label: 'Blog', position: 'left'},
           // {to: 'documentation', label: 'Documentation', position: 'left'},
@@ -80,25 +80,21 @@ const config = {
       },
 
       algolia: {
+        id: 'docusaurus-search',
         // The application ID provided by Algolia
-        appId: 'YOUR_APP_ID',
-
+        appId: '3N6369RVPE',
         // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
-
-        indexName: 'YOUR_INDEX_NAME',
-
+        apiKey: '7632a93d5ec7dbb5e80b73a6d4a2106b',
+        indexName: 'documentation_bigbox',
         // Optional: see doc section below
         contextualSearch: true,
-
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         externalUrlRegex: 'external\\.com|domain\\.com',
-
         // Optional: Algolia search parameters
         searchParameters: {},
-
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
+        placeholder: 'Search Documentation',
       },
 
       // footer: {

@@ -1,0 +1,11 @@
+{
+  "label": "Data Acquisition",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Data Visualization as a Service"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}

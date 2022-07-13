@@ -36,11 +36,43 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #1188e4;
+  --ifm-color-primary-dark: #0f7acd;
+  --ifm-color-primary-darker: #0e74c2;
+  --ifm-color-primary-darkest: #0c5fa0;
+  --ifm-color-primary-light: #1f94ee;
+  --ifm-color-primary-lighter: #2b99ef;
+  --ifm-color-primary-lightest: #4daaf2;
+  --ifm-code-font-size: 95%;
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module {
+  padding-top: 0px !important;
+}
+.navbarSearchContainer {
+  margin-top: var(--ifm-navbar-height);
+  padding-left: var(--ifm-menu-link-padding-horizontal) !important;
+  padding-right: var(--ifm-menu-link-padding-horizontal) !important;
+  padding-top: calc(var(--ifm-menu-link-padding-vertical) + 0.5em);
+  padding-bottom: var(--ifm-menu-link-padding-vertical);
+
+  position: sticky;
+  top: var(--ifm-navbar-height);
+}
+.navbarSearch {
+  margin-bottom: 0 !important;
+}
+.navbarSearchContainer button {
+  width: 100% !important;
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module {
+  top: calc(var(--ifm-navbar-height) + 56px) !important;
+}
+
+@media (min-width: 999px) {
+  .navbar__items--right
+    .searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+    display: none;
+  }
 }
