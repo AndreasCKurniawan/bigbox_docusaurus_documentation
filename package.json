@@ -18,11 +18,16 @@
     "format:diff": "prettier --config .prettierrc --list-different \"**/*.{js,jsx,ts,tsx,md,mdx}\""
   },
   "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^0.11.0",
     "@docsearch/react": "^3.1.1",
     "@docusaurus/core": "2.0.0-beta.21",
     "@docusaurus/preset-classic": "2.0.0-beta.21",
     "@docusaurus/theme-search-algolia": "^2.0.0-beta.21",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@mdx-js/react": "^1.6.22",
+    "@mui/material": "^5.9.0",
+    "axios": "^0.27.2",
     "clsx": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

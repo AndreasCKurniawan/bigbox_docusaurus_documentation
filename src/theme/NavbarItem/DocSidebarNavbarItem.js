@@ -1,5 +1,3 @@
-/* eslint-disable header/header */
-/* eslint-disable import/newline-after-import */
 import React from 'react';
 import {useActiveDocContext} from '@docusaurus/plugin-content-docs/client';
 import {useLayoutDocsSidebar} from '@docusaurus/theme-common';
@@ -17,6 +15,7 @@ export default function DocSidebarNavbarItem({
       `DocSidebarNavbarItem: Sidebar with ID "${sidebarId}" doesn't have anything to be linked to.`,
     );
   }
+
   return (
     <DefaultNavbarItem
       exact

@@ -11,7 +11,6 @@ import styles from './styles.module.css';
 // See https://github.com/facebook/docusaurus/issues/3414
 function ResetOnSidebarChange({children}) {
   const sidebar = useDocsSidebar();
-  console.log('Children', sidebar);
   return (
     <React.Fragment key={sidebar?.name ?? 'noSidebar'}>
       {children}

@@ -17,13 +17,25 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.png',
   // themes: ['@docusaurus/theme-search-algolia'],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+
+  // plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
+
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        maxSearchResults: 16,
+        indexDocSidebarParentCategories: 3,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -34,8 +46,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -55,21 +67,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'BIGBOX DOCUMENTATION',
-        // logo: {
-        //   alt: 'My Facebook Project Logo',
-        //   src: 'img/bigbox_logo.svg',
-        // },
+        // title: 'BIGBOX DOCUMENTATION',
+        logo: {
+          alt: 'My Facebook Project Logo',
+          src: 'img/bigbox_logo.svg',
+        },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Documentation',
+          // },
           // {to: 'blog', label: 'Blog', position: 'left'},
           // {to: 'documentation', label: 'Documentation', position: 'left'},
-
           // Please keep GitHub link to the right for consistency.
           // {
           //   href: 'https://github.com/facebook/docusaurus',

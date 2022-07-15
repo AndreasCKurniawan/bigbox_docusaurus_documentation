@@ -6,6 +6,7 @@
     "description": "Data Visualization as a Service"
   },
   "customProps": {
-    "description": "This description can be used in the swizzled DocCard"
+    "description": "This description can be used in the swizzled DocCard",
+    "icon": "dataAcquisition"
   }
 }

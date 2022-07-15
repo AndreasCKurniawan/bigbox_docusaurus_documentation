@@ -4,5 +4,8 @@
   "link": {
     "type": "generated-index",
     "description": "Data Visualization as a Service"
+  },
+  "customProps": {
+    "icon": "dataExtraction"
   }
 }
