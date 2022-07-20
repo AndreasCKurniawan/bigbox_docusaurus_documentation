@@ -1,11 +1,11 @@
 {
-  "label": "API Marketplace",
-  "position": 4,
+  "label": "eCommerce Analytics",
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Data Visualization as a Service"
   },
   "customProps": {
-    "icon": "apiMarketplace"
+    "icon": "eCommerce"
   }
 }

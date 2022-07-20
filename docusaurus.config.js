@@ -25,17 +25,17 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  // plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
+  plugins: [],
 
-  plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        maxSearchResults: 16,
-        indexDocSidebarParentCategories: 3,
-      },
-    ],
-  ],
+  // plugins: [
+  //   // [
+  //   //   require.resolve('@cmfcmf/docusaurus-search-local'),
+  //   //   {
+  //   //     maxSearchResults: 16,
+  //   //     indexDocSidebarParentCategories: 3,
+  //   //   },
+  //   // ],
+  // ],
 
   presets: [
     [
@@ -64,13 +64,16 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // /** @type {import('@docusaurus/theme-search-algolia').ThemeConfig} */
+
+    {
       navbar: {
         // title: 'BIGBOX DOCUMENTATION',
         logo: {
           alt: 'My Facebook Project Logo',
           src: 'img/bigbox_logo.svg',
+          href: 'https://bigbox.co.id/docs',
         },
         items: [
           // {
@@ -91,7 +94,7 @@ const config = {
       },
 
       algolia: {
-        id: 'docusaurus-search',
+        ID: 'docusaurus-search',
         // The application ID provided by Algolia
         appId: '3N6369RVPE',
         // Public API key: it is safe to commit it
@@ -104,7 +107,7 @@ const config = {
         // Optional: Algolia search parameters
         searchParameters: {},
         // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+        searchPagePath: false,
         placeholder: 'Search Documentation',
       },
 
@@ -185,7 +188,7 @@ const config = {
       //   // Please do not remove the credits, help to publicize Docusaurus :)
       //   copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
       // },
-    }),
+    },
 };
 
 module.exports = config;

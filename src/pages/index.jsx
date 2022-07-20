@@ -156,7 +156,7 @@ export default function Home() {
                 return (
                   <div className="documentItems" key={i}>
                     <>
-                      <Link href={v.href}>
+                      <a href={v.href}>
                         <div
                           style={{
                             display: 'flex',
@@ -170,7 +170,7 @@ export default function Home() {
                             {v.title}
                           </h3>
                         </div>
-                      </Link>
+                      </a>
                       <p className="documentDesc">{v.desc}</p>
                     </>
                   </div>

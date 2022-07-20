@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # About BigSpider
 
-## 1. BIGSPIDER
+## BIGSPIDER
 
-### 1.1 Operasional BigSpider
+### Operasional BigSpider
 
-#### 1.1.1 Login
+#### Login
 
 1. Akses link/IP address http://172.30.101.63/bigspider/
 
@@ -24,23 +24,23 @@ Pilih Menu Big Spider
 
 ![](/img/bigspider/images/image22.png)
 
-#### 1.1.2 Media
+#### Media
 
 ![](/img/bigspider/images/image18.png)
 
-#### 1.1.3 Crawl
+#### Crawl
 
 Menu crawl menampilkan list media yang telah dilakukan pengaturan untuk pengambilan data public (crawling).
 
 ![](/img/bigspider/images/image8.png)
 
-#### 1.1.4 Taxonomy
+#### Taxonomy
 
 ![](/img/bigspider/images/image17.png)
 
-### 1.2 Menu Media
+### Menu Media
 
-#### 1.2.1 Penambahan Media
+#### Penambahan Media
 
 1. Ketika meng-input media baru sebagai source pangambilan data, langkah pertama tentunya harus mengetahui alamat tujuan (url) media tersebut. Klik button add pada sisi kanan dan mengisi requirement, lalu klik button save untuk menyimpan data media yang akan ditambahkan.
 
@@ -81,21 +81,21 @@ Menu crawl menampilkan list media yang telah dilakukan pengaturan untuk pengambi
 
 ![](/img/bigspider/images/image11.png)
 
-#### 1.2.2 Searching
+#### Searching
 
 Fitur searching dapat digunakan untuk pencarian media.
 
 ![](/img/bigspider/images/image12.png)
 
-#### 1.2.3 Actions
+#### Actions
 
 Manajemen list media BigSpider, ada dua fitur yang dapat digunakan dalam pengaturan media yaitu melakukan edit media dan menghapus list media existing.
 
 ![](/img/bigspider/images/image1.png)
 
-### 1.3 Menu Crawl
+### Menu Crawl
 
-#### 1.3.1 Penambahan List Crawl
+#### Penambahan List Crawl
 
 1. Ketika melakukan crawling, ada beberapa pengaturan yang harus dilakukan yang dimana harus membutuhkan pengetahuan terkait HTML dan CSS. Klik button add pada sisi kanan dan mengisi requirement isian, lalu klik button submit untuk menyimpan pengaturan.
 
@@ -140,21 +140,21 @@ Berikut ini, hasil tes dari pengaturan yang telah dilakukan.
 
 ![](/img/bigspider/images/image24.png)
 
-#### 1.3.2 Searching
+#### Searching
 
 Fitur searching dapat digunakan untuk pencarian media
 
 ![](/img/bigspider/images/image10.png)
 
-#### 1.3.3 Actions
+#### Actions
 
 Manajemen list media BigSpider, ada dua fitur yang dapat digunakan dalam pengaturan media yaitu melakukan Edit Media dan menghapus list Media existing.
 
 ![](/img/bigspider/images/image1.png)
 
-### 1.4 Menu Taxonomy
+### Menu Taxonomy
 
-#### 1.4.1 Penambahan Keyword
+#### Penambahan Keyword
 
 1. Pengambilan data yang dilakukan oleh BigSpider berdasarkan topik yang telah ditentukan. Ketika menambahkan topik dalam pengambilan data klik button new keyword yang berada pada sisi kanan atas.
 
@@ -181,21 +181,21 @@ Berikut ini, contoh pengaturan yang telah dilakukan menggunakan type keyword, ty
 
 ![](/img/bigspider/images/image13.png)
 
-#### 1.4.2 Search dan Filter
+#### Search dan Filter
 
 Fitur search dan filter dapat digunakan untuk pencarian topic/keyword.
 
 ![](/img/bigspider/images/image3.png)
 
-#### 1.4.3 Actions
+#### Actions
 
 Dalam manajemen topic/keyword, ada dua fitur yang dapat digunakan dalam pengaturan yaitu melakukan edit topic/keyword dan menghapus list topic/keyword existing.
 
 ![](/img/bigspider/images/image1.png)
 
-### 1.5 Refinement Features
+### Refinement Features
 
-#### 1.5.1 Pagination
+#### Pagination
 
 1. Melihat tampilan data dengan beralih ke page selanjutnya. Berada pada sisi kiri bagian bawah.
 
@@ -205,7 +205,7 @@ Dalam manajemen topic/keyword, ada dua fitur yang dapat digunakan dalam pengatur
 
 ![](/img/bigspider/images/image4.png)
 
-#### 1.5.2 Auto Scroll Up
+#### Auto Scroll Up
 
 1. Scrolling secara otomatis ke posisi atas dengan mengklik button arrow yang berada pada sisi kanan bagian bawah.
 
@@ -215,7 +215,7 @@ Dalam manajemen topic/keyword, ada dua fitur yang dapat digunakan dalam pengatur
 
 ![](/img/bigspider/images/image16.png)
 
-#### 1.5.3 Merubah Displaying
+#### Merubah Displaying
 
 1. Menampilkan jumlah data yang akan ditampilkan dengan mengklik button angka displaying.
 

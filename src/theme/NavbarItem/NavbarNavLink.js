@@ -38,7 +38,7 @@ export default function NavbarNavLink({
       };
   if (href) {
     return (
-      <Link
+      <a
         href={prependBaseUrlToHref ? normalizedHref : href}
         {...props}
         {...linkContentProps}
@@ -46,7 +46,7 @@ export default function NavbarNavLink({
     );
   }
   return (
-    <Link
+    <a
       to={toUrl}
       isNavLink
       {...((activeBasePath || activeBaseRegex) && {

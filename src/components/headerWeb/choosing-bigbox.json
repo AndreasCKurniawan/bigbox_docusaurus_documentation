@@ -1,0 +1,49 @@
+{
+  "choosing-bigbox": {
+    "banner": {
+      "index": "Helping The World Decide Wisely",
+      "sub": "Whether your business is early in its journey or well on its way to digital transformation, Bigbox’s robust set of solutions and technologies helps chart a path to success."
+    },
+    "heading-1": "A new approach to become data-driven organization",
+    "paragraph-1": "The most valuable and transformative business use case, enabled advanced analytics, recommendation engines, predictive maintenance & support, real-time monitoring, require multiple analytics workloads and data science tools and machine learning algorithms to run against the same diverse data sets. It’s how the most innovative enterprises unlock value from their data and compete in the data age.",
+    "list-1": {
+      "heading": "But many businesses still struggle with limited data visibility and insufficient insights. This is often caused by:",
+      "list-item-1": "Data being everywhere - (in data centers, public clouds, etc.) and companies have no practical way to run analytics or apply machine learning algorithms to all their data.",
+      "list-item-2": "Data solution gap - Companies do not have a solution to manage and correlate external data with internal data, so they cannot get any insight and action related to the data.",
+      "list-item-3": "Long time process - Data processing using data warehouse technology requires a long time process.",
+      "list-item-4": "Expensive to invest - Companies must pay a very expensive price to invest, on the other hand, they do not yet understand what big data is and the benefits to be gained from the existence of big data technology."
+    },
+    "paragraph-2": "Organizations need a new approach to become data driven organization. An enterprise data platform helps you to unlock the power of data to serve customers better, operate with greater efficiency, strengthen security and decision-making to protect your business. It maintains strict enterprise data security, governance, and control across all environments.",
+    "heading-2": "BigBox Enterprise Data Platform & Solution",
+    "paragraph-3": "<strong>BigBox Data Platform</strong> combines the best Big Data technologies to deliver the industry’s enterprise data platform. We deliver powerful self-service analytics, in which the enterprise will easily correlate data from various sources in various formats, conduct modelling or analysis, and visualize the information or insight that can help the enterprise makes the right business decisions",
+    "paragraph-4": "BigBox is Big Data enterprise platform distribution, including Apache Hadoop and built specifically to meet enterprise demands. BigBox delivers everything you need for enterprise use right out of the box. By integrating Hadoop with more than a dozen other critical open source projects, BigBox has created a functionally advanced system that helps you perform end-to-end Big Data workflows. It can be installed and running in a Virtual Private Cloud environment without using public cloud applications/tools",
+    "list-2": {
+      "heading": "Our comprehensive services, consist of:",
+      "list-item-1": "<strong>Infrastructure as a Services:</strong> Manages, controls, and analyzes data anywhere according to your business needs, on premises, in hybrid or public clouds.",
+      "list-item-2": "<strong>Platform as a Services:</strong> We deliver easy-to-use analytics that work better together, Complete with A to Z functions needed to crawl, ingest, transform, query, optimize, make predictions and visualize from available data.",
+      "list-item-3": "<strong>Solution as a Services:</strong> Supporting the most demanding use cases and development to build data-driven organizations with local support in implementation, maintenance, platform lifecycle, operation and transfer of knowledge or training, expert support & consulting service."
+    },
+    "heading-3": "Powering the data-driven enterprise",
+    "videos": {
+      "pertamina": {
+        "index": "Pertamina",
+        "sub": "Transforming gas stations to improve data accuracy"
+      },
+      "kimia-farma": {
+        "index": "Kimia Farma",
+        "sub": "Leveraging big data for business decisions"
+      },
+      "telkom-indonesia": {
+        "index": "Telkom Indonesia",
+        "sub": "Monitoring the Telkom Group brands in online"
+      }
+    },
+    "bottom-banner": {
+      "heading": "Get started.",
+      "sub": "Tell us about your business, and our experts will help you build the right solution for your needs."
+    },
+    "read-more-link": {
+      "index": "Learn about Bigbox end-to-end Data Platform features details."
+    }
+  }
+}

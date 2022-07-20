@@ -6,11 +6,11 @@ sidebar_position: 1
 
 Data Visualization as a Service
 
-## 1. Introduction
+## Introduction
 
 Dokumen User Guide BigBuilder ini berisi semua informasi penting bagi pengguna sehingga dapat memudahkan pengguna dalam menggunakan BigBuilder .
 
-### 1.1 Overview BigBuilder
+### Overview BigBuilder
 
 Bigbuilder adalah sebuah Data Visualization as a Service yang membantu pengguna dalam menghubungkan ke berbagai sumber data dalam format yang sesuai dan melakukan visualisasi dari data yang dimiliki dengan berbagai macam grafik dan berbagai macam kustomisasi sesuai keinginan pengguna.
 
@@ -34,11 +34,11 @@ Pada bagian Home page akan menunjukan berbagai macam component
 3. Pengguna bisa membuat sebuah pages dari berbagai portlet sehingga bisa membuat sebuah visualisasi sesuai keinginan
 4. Fitur search yang akan membantu pengguna dalam mencari sebuah page ataupun sebuah portlet.
 
-## 2. Data Builder
+## Data Builder
 
 Memungkinkan pengguna untuk melakukan eksplorasi terhadap sumber data yang akan digunakan dalam melakukan visualisasi seperti menghubungkan ke sumber data mengubah field type sesuai dengan keinginan, dan menampilkan data yang dihubungkan
 
-### 2.1 Koneksi
+### Koneksi
 
 Berisi list sumber data yang sudah berhasil dihubungkan dengan berbagai menu yang bisa dipilih
 
@@ -56,7 +56,7 @@ Gambar 2. Halaman Connection
 6. Tombol “Hapus” digunakan untuk menghapus connection yang sudah tidak digunakan
 7. Tombol “View Table” untuk melakukan eksplorasi terhadap suatu data dari sumber data yang sudah dihubungkan
 
-#### 2.1.1 Add Connection
+#### Add Connection
 
 Pengguna bisa menambahkan berbagai macam sumber data dibagian “Add Connection” sehingga data yang akan dieksplorasi bisa dihubungkan dengan BigBuilder.
 
@@ -82,7 +82,7 @@ Setelah semua form terisi sesuai dengan sumber data yang akan dihubungkan, pengg
 
 Setelah test koneksi sudah berhasil bisa langsung menekan ![](/img/bigbuilder/images/image18.png) untuk melakukan penyimpanan terhadap sumber data yang sudah didaftarkan .
 
-#### 2.1.2 Edit Connection
+#### Edit Connection
 
 Ketika pengguna akan melakukan perubahan terhadap sebuah koneksi yang sudah didaftarkan bisa menggunakan “Edit Connection “.
 
@@ -96,7 +96,7 @@ Gambar 4. Halaman Edit Connection
 
 Kemudian tekan tombol ![](/img/bigbuilder/images/image92.png) ketika perubahan tersebut sudah selesai dilakukan dan hasil test connection sudah berhasil.
 
-#### 2.1.3 View Tables
+#### View Tables
 
 Setelah sumber data sudah berhasil dihubungkan , ketika ingin melihat table yang terdapat pada sumber data tersebut bisa menggunakan “View Tables”
 
@@ -134,7 +134,7 @@ Akan ditampilkan juga data type dari masing masing column yang terdapat pada tab
 
 Terdapat fitur search yang digunakan untuk melakukan pencarian terhadap column yang terdapat pada tables .
 
-### 2.2 Data Virtualization
+### Data Virtualization
 
 Ketika akan membuat sebuah data baru yang diperoleh dari melakukan “JOIN” sumber data yang berbeda beda bisa menggunakan “Data Virtualization”
 
@@ -146,7 +146,7 @@ Gambar 9. Halaman Data Virtualization
 
 Pada halaman awal akan di tampilkan daftar “Virtual Table” yang sudah pernah di bentuk. Tekan ![](/img/bigbuilder/images/image6.png) untuk membuat “Virtual Table” yang baru sehingga bisa mendapatkan insight yang lebih mendalam dari berbagai sumber data yang berbeda dan akan lebih simple dalam melakukan “JOIN” antar data dari sumber data yang berbeda format.
 
-#### 2.2.1 Create Virtual Table
+#### Create Virtual Table
 
 Pengguna akan ditampilkan sebuah halaman yang digunakan untuk membuat sebuah “Virtual Table” baru yang bisa digunakan sebagai sumber data baru untuk dicari sebuah insight data nya.
 
@@ -194,11 +194,11 @@ Gambar 15. Tampilan Data Baru
 
 Dengan menggunakan Data Virtualization kita akan lebih mudah dalam melakukan penggabungan data yang berbeda format dan berbeda source database.
 
-## 3. Dashboard Builder
+## Dashboard Builder
 
 Memungkinkan pengguna untuk melakukan visualisasi terhadap sumber data yang akan digunakan, dalam melakukan visualisasi seperti menampilkan data berupa chart sesuai dengan keinginan dan kebutuhan dengan mudah.
 
-### 3.1 Portlet
+### Portlet
 
 Portlet merupakan bagian paling kecil dari sebuah dashboard.
 
@@ -240,7 +240,7 @@ Pada setiap portlet akan disediakan dua tombol action ![](/img/bigbuilder/images
 
 Tekan tombol ![](/img/bigbuilder/images/image104.png) untuk membuat sebuah portlet baru .
 
-#### 3.1.1. Membuat Portlet
+#### Membuat Portlet
 
 Pengguna akan disediakan sebuah modal pop up yang berisi sebuah form ketika akan membuat sebuah portlet
 
@@ -256,7 +256,7 @@ Tulis nama portlet sesuai dengan chart atau portlet yang akan dibuat, kemudian a
 - Editor : Pengguna akan diberi keleluasaan dalam membuat sebuah portlet dari memilih sumber data sendiri kemudian visualisasi apa yang digunakan dan juga bagaimana data itu akan ditampilkan dengan lebih mudah
 - Custom View : Fitur ini digunakan untuk pengguna advance sehingga bisa melakukan kustomisasi dengan lebih leluasa lagi dan UI yang bisa disesuaikan dengan keinginan pengguna
 
-##### 3.1.1.1. BigQuery
+##### BigQuery
 
 Disediakan form yang digunakan untuk mendaftarkan konfigurasi dari BigQuery yang sudah dipublish, dengan informasi seperti Host, Secret Key, Type (Question/Dashboard), id Question
 
@@ -266,7 +266,7 @@ Disediakan form yang digunakan untuk mendaftarkan konfigurasi dari BigQuery yang
 Gambar 18. Tampilan Demo BigQuery
 </center>
 
-##### 3.1.1.2. Editor
+##### Editor
 
 Disediakan berbagai macam kustomisasi dalam pembuatan sebuah portlet, yang memungkinkan pengguna membuat portlet sesuai dengan keinginan dan menggunakan sumber data yang sudah didaftarkan sebelumnya.
 
@@ -330,7 +330,7 @@ Tekan ![](/img/bigbuilder/images/image3.png) untuk melihat menu lain yang bisa d
 - Revision History : Untuk melihat setiap perubahan yang dilakukan pada portlet tersebut
 - Archive : Untuk melakukan arsip terhadap portlet yang tidak digunakan tetapi tidak ingin di hapus
 
-##### 3.1.1.3. Custom View
+##### Custom View
 
 Memungkinkan pengguna untuk melakukan pembuatan portlet dengan lebih leluasa, karena dilakukan dengan menggunakan “kode program”
 
@@ -362,7 +362,7 @@ Gambar 26. Third Party yang Tersedia
 
 Disediakan juga berbagai macam third party yang bisa digunakan dalam pembuatan portlet tersebut.
 
-#### 3.1.2. Edit Portlet
+#### Edit Portlet
 
 Ketika user sudah membuat sebuah portlet akan tetapi perlu dilakukan perubahan lagi pada portlet tersebut , pengguna bisa melakukan edit portlet
 
@@ -372,7 +372,7 @@ Ketika user sudah membuat sebuah portlet akan tetapi perlu dilakukan perubahan l
 Gambar 27. Tampilan Edit Portlet
 </center>
 
-### 3.2. Page
+### Page
 
 Setelah membuat sebuah portlet, langkah selanjutnya yaitu menyusun berbagai macam portlet yang sudah dibuat dari berbagai macam cara ke dalam satu Page/ Dashboard dengan mudah
 
@@ -394,7 +394,7 @@ Pada setiap page akan disediakan tiga tombol action yang berguna untuk melakukan
 
 Tekan tombol ![](/img/bigbuilder/images/image85.png) untuk membuat sebuah page baru .
 
-#### 3.2.1. Create New Page
+#### Create New Page
 
 Disediakan form yang bisa diisi ketika akan membuat sebuah Page seperti Nama, Title, Type. Terdapat 2 macam Type page yang bisa dibuat:
 
@@ -456,7 +456,7 @@ Pengguna bisa melakukan pengaturan terhadap portlet yang sudah diletakan pada ka
 - Melakukan duplikat pada portlet yang sudah dibuat.
 - Melakukan remove portlet yang tidak sesuai pada page yang akan dibuat.
 
-#### 3.2.2. Edit Page
+#### Edit Page
 
 Ketika user sudah membuat sebuah page akan tetapi perlu dilakukan perubahan lagi pada page tersebut , pengguna bisa melakukan edit page.
 
@@ -466,7 +466,7 @@ Ketika user sudah membuat sebuah page akan tetapi perlu dilakukan perubahan lagi
 Gambar 35. Halaman Edit
 </center>
 
-#### 3.2.3. View Page
+#### View Page
 
 Ketika user sudah membuat sebuah page dan ingin melihat page yang telah dibuat, pengguna bisa melakukan view page.
 
@@ -476,11 +476,11 @@ Ketika user sudah membuat sebuah page dan ingin melihat page yang telah dibuat, 
 Gambar 36. Halaman View
 </center>
 
-## 4. Mapping Parser
+## Mapping Parser
 
 Memungkinkan pengguna untuk merubah data dari xlsx, pdf, dan docx menjadi sebuah data.
 
-### 4.1. Template
+### Template
 
 Setelah memiliki data xlsx, pdf, dan docs langkah selanjutnya yaitu merubah data file tersebut ke data table.
 
@@ -504,11 +504,11 @@ Pada setiap template akan disediakan dua tombol action yang berguna untuk melaku
 
 Tekan tombol ![](/img/bigbuilder/images/image73.png) untuk membuat sebuah template baru maka akan muncul dua pilihan yaitu membuat template dengan type table extraction atau ocr.
 
-#### 4.1.1 Create Template
+#### Create Template
 
 Disediakan form wizard yang bisa diisi ketika akan membuat sebuah Template. Dalam form wizard ini memiliki 3 tahap yaitu Upload sample file, Set area and column, dan Download result sample.
 
-##### 4.1.1.1. Upload Berkas Sampel
+##### Upload Berkas Sampel
 
 ![](/img/bigbuilder/images/image41.png)
 
@@ -542,7 +542,7 @@ Gambar 41. File Tidak Sesuai dan Proses Upload Gagal
 
 Apabila file sudah sesuai dengan syarat maka klik tombol ![](/img/bigbuilder/images/image57.png) untuk melanjutkan ke tahap berikutnya.
 
-##### 4.1.1.2. Atur Area dan Kolom
+##### Atur Area dan Kolom
 
 Pada tahap ini data dari file pengguna masukan akan muncul tampilan sebagai berikut
 
@@ -583,7 +583,7 @@ Gambar 45. Pilihan Pengaturan Lebih Lanjut
 
 Setelah selesai lanjutkan dengan mengklik tombol ![](/img/bigbuilder/images/image57.png) dan tombol ![](/img/bigbuilder/images/image64.png) untuk kembali ke halaman sebelumnya.
 
-##### 4.1.1.3. Download Hasil Sample
+##### Download Hasil Sample
 
 ![](/img/bigbuilder/images/image78.png)
 
@@ -593,7 +593,7 @@ Gambar 46. Tampilan Halaman Download Result Sample
 
 Pada tahap ini pengguna memasukan nama template yang akan di save dan ketika sudah mengisi form template name selanjutnya menekan tombol ![](/img/bigbuilder/images/image67.png) untuk menyimpan data table yang telah dibuat dan menggunakan tombol ![](/img/bigbuilder/images/image64.png) untuk kembali ke tahapan sebelumnya.
 
-#### 4.1.2. Edit Template
+#### Edit Template
 
 Ketika user sudah membuat sebuah template akan tetapi perlu dilakukan perubahan lagi pada template tersebut , pengguna bisa melakukan edit template.
 
@@ -621,11 +621,11 @@ Pada setiap Mapping Pd-Parser-Server akan disediakan satu tombol action yang ber
 
 Tekan tombol ![](/img/bigbuilder/images/image52.png) untuk membuat sebuah Mapping Pd-Parser-Server baru.
 
-#### 4.2.1. Create Mapping Parser
+#### Create Mapping Parser
 
 Disediakan form wizard yang bisa diisi ketika akan membuat sebuah Mapping Parser. Dalam form wizard ini memiliki 4 tahap yaitu Server Connection, Directory Path, Template dan Database.
 
-##### 4.2.1.1 Server Connection
+##### Server Connection
 
 ![](/img/bigbuilder/images/image112.png)
 
@@ -659,7 +659,7 @@ Gambar 51. Formulir Kustomisasi Penambahan Server Baru
 
 Apabila pengguna tidak jadi menambahkan server baru dapat mengklik tombol ![](/img/bigbuilder/images/image39.png) untuk kembali seperti awal dan apabila pengguna tidak jadi menambahkan connection baru dapat mengklik tombol ![](/img/bigbuilder/images/image30.png) untuk kembali ke halaman connection yang awal. Ketika sudah memilih connection apabila pengguna ingin melanjutkan ke tahap berikutnya pengguna dapat mengklik tombol ini ![](/img/bigbuilder/images/image59.png) dan tombol ![](/img/bigbuilder/images/image74.png) untuk kembali ke halaman list.
 
-##### 4.2.1.2. Directory Path
+##### Directory Path
 
 ![](/img/bigbuilder/images/image7.png)
 
@@ -669,7 +669,7 @@ Gambar 52. Tampilan Pengaturan Directory Path
 
 Pada tahap ini pengguna memasukan nama directory dimana ingin menyimpan file yang sudah diubah menjadi template dan memasukan file sesuai file yang sudah didaftarkan di template. Ketika sudah mengisi form dan memasukan file apabila pengguna ingin melanjutkan ke tahap berikutnya pengguna dapat mengklik tombol ini ![](/img/bigbuilder/images/image59.png),tombol ![](/img/bigbuilder/images/image43.png) untuk kembali ke tahap sebelumnya dan tombol ![](/img/bigbuilder/images/image74.png) untuk kembali ke halaman list.
 
-##### 4.2.1.3. Template
+##### Template
 
 ![](/img/bigbuilder/images/image32.png)
 
@@ -695,7 +695,7 @@ Pada tampilan ini kita bisa memilih icon seperti
 
 Ketika mengklik icon diatas maka akan membuka tab baru dan membuka halaman template. ketika sudah menambahkan template baru pengguna dapat mengklik tombol untuk ![](/img/bigbuilder/images/image80.png) mengupdate select template. Ketika sudah refresh pilih template yang ingin digunakan pada tombol select. Ketika sudah memilih template apabila pengguna ingin melanjutkan ke tahap berikutnya pengguna dapat mengklik tombol ini ![](/img/bigbuilder/images/image59.png) ,tombol ![](/img/bigbuilder/images/image43.png) untuk kembali ke tahap sebelumnya dan tombol ![](/img/bigbuilder/images/image74.png) untuk kembali ke halaman list.
 
-##### 4.2.1.4. Database
+##### Database
 
 ![](/img/bigbuilder/images/image114.png)
 
@@ -723,7 +723,7 @@ Pada halaman ini kita mengisi form untuk mendaftarkan database yang belum didaft
 
 Apabila pengguna tidak jadi menambahkan database baru dapat mengklik tombol ![](/img/bigbuilder/images/image30.png) untuk kembali ke halaman database yang awal. Ketika sudah memilih connection, mengisi directory path, memilih template, mengisi table name dan memilih database apabila pengguna ingin menyimpan pengguna dapat mengklik tombol ini ![](/img/bigbuilder/images/image49.png) ,tombol ![](/img/bigbuilder/images/image43.png) untuk kembali ke tahap sebelumnya dan tombol ![](/img/bigbuilder/images/image74.png) untuk kembali ke halaman list.
 
-#### 4.2.2. Edit Mapping Parser
+#### Edit Mapping Parser
 
 Ketika user sudah membuat sebuah mapping parser akan tetapi perlu dilakukan perubahan lagi pada mapping parser tersebut , pengguna bisa melakukan edit mapping parser.
 

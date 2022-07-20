@@ -6,15 +6,15 @@ sidebar_position: 1
 
 Data Extraction as a Service
 
-## 1. Introduction
+## Introduction
 
 Dokumen User Guide ini berisi tata cara penggunaan aplikasi Bigone, mulai dari navigasi, membuat template untuk ekstraksi data, membuat mapping, dan membuat workflow.
 
-### 1.1 Overview
+### Overview
 
 Bigone adalah platform solusi data extraction dimana pengguna dapat dengan mudah mengekstrak data dari file seperti xlsx, docx, ppt, pdf, dan bahkan gambar menjadi data lakes. Bigone dapat melakukan ekstraksi menggunakan metode membaca tabel dalam file langsung atau menggunakan OCR. Penambahan, penghapusan, dan perubahan pada file akan secara otomatis tercermin ke data di dalam data lake.
 
-### 1.2 Navigation
+### Navigation
 
 Navigasi pada halaman admin Bigone dapat dilakukan dengan mudah menggunakan menu navigasi yang berada di sebelah kiri halaman. Melalui menu navigasi, admin dapat mengunjungi halaman seperti dashboards, templates, mappings, dan workflows.
 
@@ -24,7 +24,7 @@ Navigasi pada halaman admin Bigone dapat dilakukan dengan mudah menggunakan menu
 Gambar 2. Menu navigasi di sebelah kiri halamam
 </center>
 
-#### 1.2.1 Datasource
+#### Datasource
 
 ![](/img/bigone/2.png)
 
@@ -34,7 +34,7 @@ Gambar 3. Halaman Datasource
 
 Pada halaman datasource, admin dapat melihat semua data source yang sudah terdaftar di Bigone.
 
-#### 1.2.2 Templates
+#### Templates
 
 ![](/img/bigone/3.png)
 
@@ -44,7 +44,7 @@ Gambar 4. Halaman Templates
 
 Pada halaman templates, admin dapat melihat daftar templates yang sudah terdaftar di BigOne. Admin juga dapat menambah, mengubah, atau menghapus template yang sudah ada.
 
-#### 1.2.3 Mapping
+#### Mapping
 
 ![](/img/bigone/4.png)
 
@@ -54,7 +54,7 @@ Gambar 5. Halaman Mapping
 
 Pada halaman mapping, admin dapat melihat daftar Mapping yang sudah terdaftar dan dilakukan tracking oleh Bigone. Bigone akan melakukan tracking terhadap file yang berada di server dan direktori yang ditampilkan di sini.
 
-#### 1.2.4 Workflow
+#### Workflow
 
 ![](/img/bigone/5.png)
 
@@ -64,11 +64,11 @@ Gambar 6. Halaman Workflow
 
 Pada halaman workflow, admin dapat membuat dan mengubah workflow pada daftar workflow. Workflow berguna untuk membuat alur kerja pemrosesan data lebih lanjut.
 
-## 2. Creating Templates
+## Creating Templates
 
 Tahap pertama dalam melakukan pengaturan dalam Bigone adalah membuat template ekstraksi data dari file. Ekstraksi data dapat dilakukan menggunakan 2 metode: Table Extraction dan OCR (Optical Character Recognition).
 
-### 2.1 Creating Table Extraction Template
+### Creating Table Extraction Template
 
 Ekstraksi menggunakan Table Extraction dilakukan dengan cara membuka file dan melihat data yang sudah tersimpan dalam bentuk tabel. Oleh karena itu, Table Extraction hanya dapat dilakukan jika data tersimpan dalam file dalam bentuk tabel, bukan clipping gambar dsb. Table Extraction Template mendukung file xls, xlsx, docx, dan pptx.
 
@@ -80,7 +80,7 @@ Untuk memulai membuat template, masuk ke halaman Template, lalu klik tombol “C
 Gambar 7. Tombol Create Table Extraction Template
 </center>
 
-#### 2.1.1 Uploading Sample File
+#### Uploading Sample File
 
 Pada halaman pertama, User akan diarahkan untuk mengupload sample file yang akan dibaca oleh BigOne. Upload dapat dilakukan dengan melakukan “drag & drop” file sample, atau menekan area upload untuk membuka window pemilihan file. Jika file yang diupload tidak didukung, aplikasi akan mengeluarkan pesan error. Jika file sudah berhasil di-upload, tekan “Next”
 
@@ -90,7 +90,7 @@ Pada halaman pertama, User akan diarahkan untuk mengupload sample file yang akan
 Gambar 8. Halaman Upload File Sample
 </center>
 
-#### 2.1.2 Template Studio
+#### Template Studio
 
 Di halaman template studio, user dapat menentukan area dari data yang ingin diambil dengan cara melakukan “Click and drag”. Selain itu user juga dapat mengubah area dengan cara memasukan row dan kolom secara manual. User juga perlu memasukan nama dari masing-masing kolom. Jika ada kolom yang tidak ingin dimasukkan, pengguna hanya perlu mengosongkan input nama dari kolom tersebut.
 
@@ -104,7 +104,7 @@ Jika sudah selesai membuat template, tekan tombol “Next” untuk pergi ke hala
 Gambar 9. Table Extraction Template Studio
 </center>
 
-#### 2.1.3 Saving Template
+#### Saving Template
 
 Pada halaman terakhir, pengguna dapat memasukan nama template yang sudah dibuat. Jika sudah selesai, tekan tombol “Submit”.
 
@@ -114,7 +114,7 @@ Pada halaman terakhir, pengguna dapat memasukan nama template yang sudah dibuat.
 Gambar 10. Save Table Extraction Template
 </center>
 
-### 2.2 Creating OCR Extrantion Template
+### Creating OCR Extrantion Template
 
 Ekstraksi menggunakan OCR dilakukan dengan cara melihat tabel yang ada pada file secara visual dan melakukan parsing untuk mengubahnya menjadi data text. Ekstraksi menggunakan OCR mendukung lebih banyak file dibanding Table Extraction karena data dapat tersimpan berupa gambar visual. OCT Template mendukung file PDF, DOC, DOCX, PPT, PPTX, dan file gambar seperti JPEG dan PNG.
 
@@ -126,7 +126,7 @@ Untuk memulai membuat template, masuk ke halaman Template, lalu klik tombol “C
 Gambar 11. Tombol Create OCR Template
 </center>
 
-#### 2.2.1 Uploading Sample File
+#### Uploading Sample File
 
 Pada halaman pertama, User akan diarahkan untuk mengupload sample file yang akan dibaca oleh BigOne. Upload dapat dilakukan dengan melakukan “drag & drop” file sample, atau menekan area upload untuk membuka window pemilihan file. Jika file yang diupload tidak didukung, aplikasi akan mengeluarkan pesan error. Jika file sudah berhasil di-upload, tekan “Next”
 
@@ -136,7 +136,7 @@ Pada halaman pertama, User akan diarahkan untuk mengupload sample file yang akan
 Gambar 12. Halaman Upload File Sample
 </center>
 
-#### 2.2.2 Template Studio
+#### Template Studio
 
 Di halaman template studio, user dapat menentukan area dari data yang ingin diambil dengan cara melakukan “Click and drag” atau dengan menarik pembatas area. Selain itu user juga dapat mengubah area dengan cara memasukan koordinat X dan Y secara manual.
 
@@ -152,7 +152,7 @@ Jika sudah selesai membuat template, tekan tombol “Next” untuk pergi ke hala
 Gambar 13. OCR Template Studio
 </center>
 
-#### 2.2.3 Downloading sample result
+#### Downloading sample result
 
 Pada halaman terakhir, pengguna dapat mendownload terlebih dahulu contoh data hasil ekstraksi dari file yang sudah dikirimkan dengan menekan tombol download yang sudah disediakan. Data hasil ekstraksi ditampilkan dalam bentuk file XLSX.
 
@@ -162,11 +162,11 @@ Pada halaman terakhir, pengguna dapat mendownload terlebih dahulu contoh data ha
 Gambar 14. Tombol Dowload sample ekstraksi
 </center>
 
-#### 2.2.4 Saving Template
+#### Saving Template
 
 Pada halaman terakhir juga pengguna dapat memasukan nama template yang sudah dibuat. Jika sudah selesai, tekan tombol “Submit”.
 
-## 3. Template to Database Mappings
+## Template to Database Mappings
 
 Setelah membuat template, pengguna hanya perlu mendaftarkan server dan direktori tempat file disimpan, template yang dipakai, serta database tempat data akan disimpan, melalui menu mappings. Setelah mapping berhasil ditambahkan, sistem BigOne akan secara otomatis dan berkala mengecek file pada server dan direktori yang tersimpan, mengambil data berdasarkan template yang dipilih, dan menyimpannya pada database yang sudah dipilih. Penambahan, perubahan, dan penghapusan file pada direktori akan berdampak pada tabel yang sudah dibuat.
 
@@ -178,7 +178,7 @@ Untuk membuat mapping baru, pergi ke halaman mapping dan tekan tombol “Add New
 Gambar 15. Tombol Add New Mapping Parser
 </center>
 
-### 3.1 Server Connection
+### Server Connection
 
 Pada halaman pertama, pengguna perlu menentukan server tempat file disimpan. Jika server sudah pernah terdaftar sebelumnya, pengguna dapat langsung memilih server melalui dropdown. Jika server belum pernah terdaftar sebelumnya pengguna perlu mendaftarkan koneksi server baru tersebut.
 
@@ -192,7 +192,7 @@ Koneksi server baru dapat didaftarkan dengan menekan tombol “Add New Server Co
 
 Jika koneksi server sudah terisi, tekan tombol “Next”.
 
-### 3.2 Directory
+### Directory
 
 Pada halaman kedua, pengguna perlu menentukan direktori tempat file tersimpan. Jika direktori yang dimaksud masih belum berisi, pengguna dapat memasukan file langsung ke direktori dengan melakukan drag & drop file ke area upload file.
 
@@ -204,7 +204,7 @@ Gambar 17. Masukan Direktori File
 
 Jika direktori sudah terisi, tekan tombol “Next”.
 
-### 3.3 Template
+### Template
 
 Pada halaman ketiga, pengguna perlu menentukan template yang ekstraksi data. Jika template sudah dibuat sebelumnya, pengguna hanya tinggal memilih satu dari daftar template yang disediakan.
 
@@ -218,7 +218,7 @@ Jika pengguna belum membuat template sebelumnya, pengguna hanya perlu mengklik s
 
 Jika template sudah dipilih, tekan tombol “Next”.
 
-### 3.4 Database
+### Database
 
 Pada halaman terakhir, pengguna perlu menentukan database tempat data akan disimpan serta nama tabelnya. Nama tabel dapat dimasukkan pada input “Table*name”. Perlu diperhatikan bahwa nama tabel akan diberi prefix “bo*” untuk membedakan table buatan bigone. Database tempat menyimpan data bisa dipilih dari list database yang telah diberikan.
 
@@ -238,15 +238,15 @@ Gambar 20 Pemilihan Database
 
 Jika pemilihan database sudah selesai pengguna dapat menekan tombol “Submit”. Setelah mapping berhasil ditambahkan, sistem BigOne akan secara otomatis dan berkala mengecek file pada server dan direktori yang tersimpan, mengambil data berdasarkan template yang dipilih, dan menyimpannya pada database yang sudah dipilih. Penambahan, perubahan, dan penghapusan file pada direktori akan berdampak pada tabel yang sudah dibuat.
 
-## 4. Further Data processing with Workflows
+## Further Data processing with Workflows
 
 Setelah pengguna berhasil memasang ekstraksi data otomatis menggunakan BigOne, pengguna juga dapat membuat workflow untuk pemrosesan data lebih lanjut. Workflow memungkinkan pengguna untuk membuat alur pemrosesan data dengan melibatkan satu user atau lebih.
 
-### 4.1 Creating Workflows
+### Creating Workflows
 
 Untuk membuat workflow, masuk ke halaman workflow dan tekan tombol “Add Workflow”.
 
-#### 4.1.1 Workflow parameters
+#### Workflow parameters
 
 ![](/img/bigone/21.png)
 
@@ -256,7 +256,7 @@ Gambar 21. Pemilihan database
 
 Pada halaman add workflow, pengguna perlu memberi nama dari workflow serta deskripsinya jika diperlukan. Setelah selesai, tekan tombol “Submit”
 
-#### 4.1.2 Creating Action Flow
+#### Creating Action Flow
 
 Pada halaman daftar workflow, tekan tombol “View Action” untuk memulai membuat alur action dari workflow tersebut.
 
@@ -290,6 +290,6 @@ Untuk menyambungkan antar node, lakukan klik kanan pada salah satu node lalu tek
 Gambar 25. Penambahan Panah pada Alur
 </center>
 
-#### 4.1.2. Edit Template
+#### Edit Template
 
 Ketika user sudah membuat sebuah template akan tetapi perlu dilakukan perubahan lagi pada template tersebut , pengguna bisa melakukan edit template.

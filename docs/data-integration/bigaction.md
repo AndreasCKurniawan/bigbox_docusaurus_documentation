@@ -4,7 +4,7 @@ Data Extraction as a Service
 
 User Guide
 
-# 1. BIGACTION STREAM
+# BIGACTION STREAM
 
 ## Operational BigAction
 
@@ -25,7 +25,7 @@ FlowFile: Setiap bagian dari "Data Pengguna" (yaitu, data yang dibawa pengguna u
 
 Prosesor: Prosesor adalah komponen NiFi yang bertanggung jawab untuk membuat, mengirim, menerima, mengubah, merutekan, memisahkan, menggabungkan, dan memproses FlowFiles. Ini adalah blok bangunan terpenting yang tersedia bagi pengguna NiFi untuk membangun aliran data.
 
-3.  ### Memasuki Canvas
+### Memasuki Canvas
 
 ![](/img/bigaction/images/image60.png)
 
