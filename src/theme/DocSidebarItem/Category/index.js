@@ -70,7 +70,11 @@ function CollapseButton({categoryLabel, onClick}) {
 function IconChoose({icon, isActive}) {
   return (
     <img
-      src={isActive ? `/img/icons/${icon}Active.svg` : `/img/icons/${icon}.svg`}
+      src={
+        isActive
+          ? `/img/icons/latest/${icon}Active.svg`
+          : `/img/icons/latest/${icon}.svg`
+      }
       className="navbarIcon"
     />
   );
@@ -87,7 +91,13 @@ export default function DocSidebarItemCategory({
 }) {
   console.log(item.customProps);
   const {items, label, collapsible, className, href} = item;
-  const {icon} = item.customProps;
+  let icon = null;
+  if (item.customProps) {
+    if (item.customProps.icon) {
+      icon = item.customProps.icon;
+    }
+  }
+
   const {
     docs: {
       sidebar: {autoCollapseCategories},
@@ -166,7 +176,7 @@ export default function DocSidebarItemCategory({
           href={collapsible ? hrefWithSSRFallback ?? '#' : hrefWithSSRFallback}
           {...props}>
           <div style={{display: 'flex', alignItems: 'center'}}>
-            <IconChoose icon={icon} isActive={isActive} />
+            {icon ? <IconChoose icon={icon} isActive={isActive} /> : null}
             <span>{label}</span>
           </div>
         </Link>

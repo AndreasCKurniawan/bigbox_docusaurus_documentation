@@ -1,0 +1,11 @@
+{
+  "label": "BigBox Data Platform",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Data Extraction as a Service"
+  },
+  "customProps": {
+    "icon": ""
+  }
+}
