@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.BigBox Data Platform": {
+    "message": "BigBox Data Platform",
+    "description": "The label for category BigBox Data Platform in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.BigBox Data Platform.link.generated-index.description": {
+    "message": "Data Extraction as a Service",
+    "description": "The generated-index page description for category BigBox Data Platform in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Extraction": {
+    "message": "Data Extraction",
+    "description": "The label for category Data Extraction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Extraction.link.generated-index.description": {
+    "message": "Data Extraction as a Service",
+    "description": "The generated-index page description for category Data Extraction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How To : Operate": {
+    "message": "How To : Operate",
+    "description": "The label for category How To : Operate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How To : Operate.link.generated-index.description": {
+    "message": "Data Extraction as a Service",
+    "description": "The generated-index page description for category How To : Operate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Integration": {
+    "message": "Data Integration",
+    "description": "The label for category Data Integration in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Integration.link.generated-index.description": {
+    "message": "Data Visualization as a Service",
+    "description": "The generated-index page description for category Data Integration in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Release Note": {
+    "message": "Release Note",
+    "description": "The label for category Release Note in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Release Note.link.generated-index.description": {
+    "message": "This section lists major features, updates, and fixes for BigAction service.",
+    "description": "The generated-index page description for category Release Note in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.NiFi Endpoints Supports": {
+    "message": "NiFi Endpoints Supports",
+    "description": "The label for category NiFi Endpoints Supports in sidebar tutorialSidebar"
+  }
+}

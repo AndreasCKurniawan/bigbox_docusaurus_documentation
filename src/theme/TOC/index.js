@@ -47,7 +47,9 @@ export default function TOC({className, ...props}) {
             : 'Was This Article Helpfull?'}
         </p>
 
-        <div className="feedbackOptionsContainer">
+        <div
+          className="feedbackOptionsContainer"
+          style={{paddingBottom: '10px'}}>
           <div
             className="feedbackYes feedbackOptionContainer "
             onClick={() => handleClickFeedback('yes')}>

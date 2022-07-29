@@ -24,6 +24,7 @@ export default function DocSidebarItemLink({
         'menu__list-item',
         className,
       )}
+      style={{display: 'flex'}}
       key={label}>
       <Link
         className={clsx(
@@ -42,6 +43,11 @@ export default function DocSidebarItemLink({
         {label}
         {!isInternalLink && <IconExternalLink />}
       </Link>
+      <button
+        aria-label="Toggle the collapsible sidebar category 'Data Acquisition'"
+        type="button"
+        className="clean-btn menu__caret"
+        style={{visibility: 'hidden'}}></button>
     </li>
   );
 }

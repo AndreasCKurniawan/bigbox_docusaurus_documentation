@@ -1,0 +1,11 @@
+{
+  "label": "How To : Operate",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "How To Operate"
+  },
+  "customProps": {
+    "icon": ""
+  }
+}

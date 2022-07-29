@@ -1,0 +1,11 @@
+{
+  "label": "How To : Use API's",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "APIs created using BigEnvelope can be called with endpoint URLs like the following.\n{{BASE_URL}}/bigenvelope/public/api/id/{API_ID}"
+  },
+  "customProps": {
+    "icon": ""
+  }
+}

@@ -50,6 +50,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     // /** @type {import('@docusaurus/theme-search-algolia').ThemeConfig} */
+
     {
       navbar: {
         logo: {
@@ -58,10 +59,10 @@ const config = {
           href: 'https://bigbox.co.id/docs',
         },
         items: [
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
 
@@ -76,18 +77,22 @@ const config = {
         searchPagePath: false,
         placeholder: 'Search Documentation',
       },
+
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
     },
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'id', 'fr'],
+    locales: ['en', 'id'],
     localeConfigs: {
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en',
+      en: {},
+      id: {
+        label: 'Bahasa Indonesia',
       },
-      fr: {},
     },
   },
 };

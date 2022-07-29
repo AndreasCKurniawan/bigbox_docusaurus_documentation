@@ -1,0 +1,11 @@
+{
+  "label": "Data Acquisition",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Data Extraction as a Service"
+  },
+  "customProps": {
+    "icon": "dataAcquisition"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Release Note",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "This section lists major features, updates, and fixes for BigAction service."
+  }
+}

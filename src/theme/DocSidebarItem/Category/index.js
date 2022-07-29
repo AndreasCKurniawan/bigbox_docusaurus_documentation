@@ -89,7 +89,6 @@ export default function DocSidebarItemCategory({
   customProps,
   ...props
 }) {
-  console.log(item.customProps);
   const {items, label, collapsible, className, href} = item;
   let icon = null;
   if (item.customProps) {

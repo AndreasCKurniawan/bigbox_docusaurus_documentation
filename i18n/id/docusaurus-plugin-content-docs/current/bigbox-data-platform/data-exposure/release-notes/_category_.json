@@ -1,0 +1,11 @@
+{
+  "label": "Release Notes",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Data Exposure as Service"
+  },
+  "customProps": {
+    "icon": ""
+  }
+}
